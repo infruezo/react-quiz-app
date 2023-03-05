@@ -15,11 +15,11 @@ const GameOver = ({ score, size }) => {
             <img
               src="./mitsuri.jpg"
               alt=""
-              className="h-96 w-auto object-cover"
+              className="h-auto w-auto object-cover lg:h-96"
             />
           </div>
         ) : (
-          <div className="space-y-4 text-center font-bold md:space-y-6">
+          <div className="mx-auto space-y-4 text-center font-bold md:space-y-6">
             <h3 className="text-xl md:text-2xl lg:text-3xl">
               👏 Well Played 👏
             </h3>
